@@ -1,5 +1,3 @@
-// Ivy Nguyen
-// Winter 2025
 // DNA_Sampling_Sorter, 3/16/25
 //
 // In main: read the file name and pass the File datatype of that string to the ReadAndWrite
