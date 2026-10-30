@@ -1,0 +1,210 @@
+Example #1
+Before:  5 - 5 - 5 - 5     After:  4 - 4 - 4 - 4
+Before: 25%/25%/25%/25%    After: 25%/25%/25%/25%
+ MATCH
+
+Example #2
+Before:  5 - 5 - 5 - 5     After:  5 - 5 - 4 - 6
+Before: 25%/25%/25%/25%    After: 25%/25%/20%/30%
+ DIFFERENT
+
+Test Sample 1
+Before:  3 - 7 - 5 - 4     After:  3 - 8 - 8 - 5
+Before: 16%/37%/26%/21%    After: 13%/33%/33%/21%
+ DIFFERENT
+
+Test Sample 2
+Before:  7 - 4 - 7 - 5     After:  7 - 4 - 7 - 5
+Before: 30%/17%/30%/22%    After: 30%/17%/30%/22%
+ MATCH
+
+Test Sample 3
+Before:  4 -10 - 4 - 9     After:  4 -10 - 4 - 9
+Before: 15%/37%/15%/33%    After: 15%/37%/15%/33%
+ MATCH
+
+Test Sample 4
+Before:  2 - 5 - 6 - 4     After:  2 - 6 - 6 - 4
+Before: 12%/29%/35%/24%    After: 11%/33%/33%/22%
+ DIFFERENT
+
+Test Sample 5
+Before:  8 - 9 - 5 - 7     After:  8 -10 - 6 - 7
+Before: 28%/31%/17%/24%    After: 26%/32%/19%/23%
+ DIFFERENT
+
+Test Sample 6
+Before: 10 - 7 -10 -11     After: 11 - 9 -11 -14
+Before: 26%/18%/26%/29%    After: 24%/20%/24%/31%
+ DIFFERENT
+
+Test Sample 7
+Before:  6 - 8 -10 - 9     After: 10 - 8 -12 -11
+Before: 18%/24%/30%/27%    After: 24%/20%/29%/27%
+ DIFFERENT
+
+Test Sample 8
+Before:  4 - 9 - 4 - 5     After:  5 -11 - 4 - 8
+Before: 18%/41%/18%/23%    After: 18%/39%/14%/29%
+ DIFFERENT
+
+Test Sample 9
+Before:  6 - 5 - 5 -10     After:  8 - 6 - 6 -10
+Before: 23%/19%/19%/38%    After: 27%/20%/20%/33%
+ DIFFERENT
+
+Test Sample 10
+Before:  6 -10 - 4 -10     After:  6 -13 - 7 -12
+Before: 20%/33%/13%/33%    After: 16%/34%/18%/32%
+ DIFFERENT
+
+Test Sample Alpha
+Before:  4 - 7 - 7 - 6     After:  5 - 9 - 9 - 8
+Before: 17%/29%/29%/25%    After: 16%/29%/29%/26%
+ DIFFERENT
+
+Test Sample Beta
+Before: 13 -14 - 6 -12     After: 15 -14 - 6 -12
+Before: 29%/31%/13%/27%    After: 32%/30%/13%/26%
+ DIFFERENT
+
+Test Sample Gamma
+Before:  9 -10 -11 -13     After: 18 -20 -22 -26
+Before: 21%/23%/26%/30%    After: 21%/23%/26%/30%
+ MATCH
+
+Test Sample Delta
+Before: 12 - 5 - 6 -12     After: 24 -10 -12 -24
+Before: 34%/14%/17%/34%    After: 34%/14%/17%/34%
+ MATCH
+
+Test Sample Epsilon
+Before: 12 - 3 - 7 -11     After: 12 - 3 - 7 -11
+Before: 36%/ 9%/21%/33%    After: 36%/ 9%/21%/33%
+ MATCH
+
+Test Sample Zeta
+Before:  8 -10 -15 -14     After:  9 -11 -15 -14
+Before: 17%/21%/32%/30%    After: 18%/22%/31%/29%
+ DIFFERENT
+
+Test Sample Eta
+Before:  9 -10 - 9 -12     After: 18 -20 -18 -24
+Before: 23%/25%/23%/30%    After: 23%/25%/23%/30%
+ MATCH
+
+Test Sample Theta
+Before:  1 - 7 - 7 - 8     After:  2 -14 -14 -16
+Before:  4%/30%/30%/35%    After:  4%/30%/30%/35%
+ MATCH
+
+Test Sample Iota
+Before: 14 - 3 - 6 - 8     After: 14 - 3 - 6 - 8
+Before: 45%/10%/19%/26%    After: 45%/10%/19%/26%
+ MATCH
+
+Test Sample Kappa
+Before:  7 - 5 - 7 - 5     After:  9 - 9 - 8 - 7
+Before: 29%/21%/29%/21%    After: 27%/27%/24%/21%
+ DIFFERENT
+
+Sample A
+Before: 13 - 8 - 9 - 8     After: 15 - 8 -10 - 9
+Before: 34%/21%/24%/21%    After: 36%/19%/24%/21%
+ DIFFERENT
+
+Sample B
+Before:  4 - 6 -14 -13     After:  6 - 8 -15 -15
+Before: 11%/16%/38%/35%    After: 14%/18%/34%/34%
+ DIFFERENT
+
+Sample C
+Before: 17 - 6 - 4 -11     After: 34 -12 - 8 -22
+Before: 45%/16%/11%/29%    After: 45%/16%/11%/29%
+ MATCH
+
+Sample D
+Before:  9 - 5 - 6 - 5     After: 10 - 5 - 7 - 7
+Before: 36%/20%/24%/20%    After: 34%/17%/24%/24%
+ DIFFERENT
+
+Sample E
+Before: 10 - 8 - 8 - 4     After: 10 - 8 - 8 - 4
+Before: 33%/27%/27%/13%    After: 33%/27%/27%/13%
+ MATCH
+
+Sample F
+Before:  6 - 6 - 6 - 4     After:  6 - 6 - 6 - 4
+Before: 27%/27%/27%/18%    After: 27%/27%/27%/18%
+ MATCH
+
+Sample G
+Before:  6 -14 -10 -11     After:  6 -14 -10 -11
+Before: 15%/34%/24%/27%    After: 15%/34%/24%/27%
+ MATCH
+
+Sample H
+Before:  8 - 9 - 7 - 8     After: 10 -11 -10 - 8
+Before: 25%/28%/22%/25%    After: 26%/28%/26%/21%
+ DIFFERENT
+
+Sample I
+Before:  7 - 5 - 6 - 9     After: 14 -10 -12 -18
+Before: 26%/19%/22%/33%    After: 26%/19%/22%/33%
+ MATCH
+
+Sample J
+Before:  3 - 6 - 5 - 9     After:  3 - 6 - 5 - 9
+Before: 13%/26%/22%/39%    After: 13%/26%/22%/39%
+ MATCH
+
+Subject 001
+Before:  5 -10 - 4 - 2     After:  5 -11 - 4 - 3
+Before: 24%/48%/19%/10%    After: 22%/48%/17%/13%
+ DIFFERENT
+
+Subject 002
+Before: 10 - 8 -11 -10     After: 10 - 9 -15 -12
+Before: 26%/21%/28%/26%    After: 22%/20%/33%/26%
+ DIFFERENT
+
+Subject 003
+Before:  6 - 5 - 7 - 8     After:  7 - 7 - 7 -10
+Before: 23%/19%/27%/31%    After: 23%/23%/23%/32%
+ DIFFERENT
+
+Subject 004
+Before: 14 - 9 -11 -11     After: 42 -27 -33 -33
+Before: 31%/20%/24%/24%    After: 31%/20%/24%/24%
+ MATCH
+
+Subject 005
+Before:  6 - 8 -15 - 9     After: 12 -16 -30 -18
+Before: 16%/21%/39%/24%    After: 16%/21%/39%/24%
+ MATCH
+
+Subject 006
+Before: 13 - 5 - 8 - 7     After: 26 -10 -16 -14
+Before: 39%/15%/24%/21%    After: 39%/15%/24%/21%
+ MATCH
+
+Subject 007
+Before:  3 - 5 - 5 - 7     After:  6 -10 -10 -14
+Before: 15%/25%/25%/35%    After: 15%/25%/25%/35%
+ MATCH
+
+Subject 008
+Before:  7 - 1 - 5 -10     After:  7 - 1 - 8 -12
+Before: 30%/ 4%/22%/43%    After: 25%/ 4%/29%/43%
+ DIFFERENT
+
+Subject 009
+Before:  4 - 5 - 4 - 6     After:  4 - 5 - 4 - 6
+Before: 21%/26%/21%/32%    After: 21%/26%/21%/32%
+ MATCH
+
+Subject 010
+Before:  9 - 8 - 5 - 6     After:  9 -10 - 6 - 7
+Before: 32%/29%/18%/21%    After: 28%/31%/19%/22%
+ DIFFERENT
+
